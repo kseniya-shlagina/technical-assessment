@@ -24,8 +24,7 @@
           :text="source.address + ', ' + source.city"
         ></TextHighlight>
       </div>
-      <!--      SKIP SELECTION когда менять на MARK AS SIUTABLE?-->
-      <button :class="$style.button" tabindex="-1">SKIP SELECTION</button>
+      <button :class="$style.button">SKIP SELECTION</button>
     </div>
   </div>
 </template>
