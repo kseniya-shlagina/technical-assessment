@@ -1,7 +1,7 @@
 <template>
   <VirtualList
     :class="$style.list"
-    :data-key="'id'"
+    data-key="id"
     :data-sources="cards"
     :data-component="itemComponent"
     :extra-props="{ searchQuery }"
