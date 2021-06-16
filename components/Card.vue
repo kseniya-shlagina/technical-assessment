@@ -87,8 +87,8 @@ export default {
 }
 
 .button {
-  margin-top: 17px;
-  padding-left: 22px;
+  margin-top: 19px;
+  padding: 0 22px;
   background: none;
   border: none;
   font-family: Roboto, sans-serif;
